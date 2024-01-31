@@ -1,0 +1,38 @@
+http://ec2-3-144-25-242.us-east-2.compute.amazonaws.com/
+
+username: stage@bksbackstage.io
+password: admin123
+
+ssh -i "BKS.pem" ubuntu@ec2-3-144-25-242.us-east-2.compute.amazonaws.com
+
+DB_HOST = 127.0.0.1
+DB_USER = skygod
+DB_PASSWORD = 'frbJX2<:'
+
+
+Contract
+BSC Mainnet
+0x3d4A00165B6c5761670f399758d3dd773721F90F
+
+testnet
+0x503bC60102b11F3D4ce5CCB105cb3cAaf6b7B92C
+0xd6F1940750F4EE77c152568aAB5A4e6b18164B91   ### new 
+-- Metadata --
+Event name
+date
+location
+ticket price
+ID
+Collection
+
+
+
+https://app.airnfts.com
+https://bscscan.com/token/0xF5db804101d8600c26598A1Ba465166c33CdAA4b#readContract
+https://github.com/AirNFTs/AirNFT-ERC721/blob/main/contracts/NFT_FlatContract.sol
+
+etherscan show
+https://etherscan.io/address/0x9a534628b4062e123ce7ee2222ec20b86e16ca8f#code
+
+
+https://ipfs.infura.io/ipfs/QmWx4xd8Azrr2Svr3QrBGWNiwmg3oVXPFLtLuKszBkVBaj
