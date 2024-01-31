@@ -27,6 +27,9 @@ export class EventCard extends SoftDelete {
     @Column({ nullable: true })
     picture_small: string;
 
+    @Column({ nullable: true })
+    picture_ipfs: string;
+
     @Column()
     price: number;
 

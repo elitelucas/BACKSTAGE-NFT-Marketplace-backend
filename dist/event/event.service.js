@@ -53,11 +53,13 @@ let EventService = class EventService {
     async remove(id) {
         await this.eventcardRepository.delete(id);
     }
-    async updateUserTicket(id) {
+    async updateUserTicket(id, tokenURL, ipfsURL) {
         const ticket = await this.ticketRepository.findOne({
             where: { id: id },
         });
         ticket.is_minted = true;
+        ticket.tokenURL = tokenURL;
+        ticket.ipfsURL = ipfsURL;
         await this.ticketRepository.save(ticket);
         return this.ticketRepository.findOne({
             where: { id: id },

@@ -83,4 +83,8 @@ export class CreateEventCardDto {
   @ApiProperty()
   @IsNotEmpty()
   total_tickets: number;
+
+  @ApiProperty()
+  @IsString()
+  picture_ipfs: string;
 }

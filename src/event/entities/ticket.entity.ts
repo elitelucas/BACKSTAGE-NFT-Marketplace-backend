@@ -22,4 +22,10 @@ export class Ticket extends SoftDelete {
 
     @Column({ default: false })
     is_minted: boolean;
+
+    @Column()
+    tokenURL: string;
+
+    @Column()
+    ipfsURL: string;
 }

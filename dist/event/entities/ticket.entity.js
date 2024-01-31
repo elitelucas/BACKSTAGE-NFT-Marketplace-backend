@@ -40,6 +40,14 @@ __decorate([
     (0, typeorm_1.Column)({ default: false }),
     __metadata("design:type", Boolean)
 ], Ticket.prototype, "is_minted", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Ticket.prototype, "tokenURL", void 0);
+__decorate([
+    (0, typeorm_1.Column)(),
+    __metadata("design:type", String)
+], Ticket.prototype, "ipfsURL", void 0);
 Ticket = __decorate([
     (0, typeorm_1.Entity)('tickets')
 ], Ticket);

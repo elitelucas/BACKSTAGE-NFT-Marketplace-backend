@@ -151,7 +151,8 @@ export class EventController {
   @UseGuards(JwtAuthGuard)
   @ApiOkResponse({})
   async update_user_tickets(@Body() body: Ticket, @Request() req) { 
-    const ticket = await this.eventService.updateUserTicket(body.id );
+    const ticket = await this.eventService.updateUserTicket(body.id, body.tokenURL, body.ipfsURL );
+    console.log(body);
     return { success: true, ticket: ticket };
   }
 

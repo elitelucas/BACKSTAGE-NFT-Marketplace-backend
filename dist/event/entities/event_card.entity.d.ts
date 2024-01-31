@@ -10,6 +10,7 @@ export declare class EventCard extends SoftDelete {
     background: string;
     picture_large: string;
     picture_small: string;
+    picture_ipfs: string;
     price: number;
     venue_description: string;
     description: string;

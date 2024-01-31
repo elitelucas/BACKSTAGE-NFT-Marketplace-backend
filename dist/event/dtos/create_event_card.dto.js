@@ -109,5 +109,10 @@ __decorate([
     (0, class_validator_1.IsNotEmpty)(),
     __metadata("design:type", Number)
 ], CreateEventCardDto.prototype, "total_tickets", void 0);
+__decorate([
+    (0, swagger_1.ApiProperty)(),
+    (0, class_validator_1.IsString)(),
+    __metadata("design:type", String)
+], CreateEventCardDto.prototype, "picture_ipfs", void 0);
 exports.CreateEventCardDto = CreateEventCardDto;
 //# sourceMappingURL=create_event_card.dto.js.map

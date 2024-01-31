@@ -93,7 +93,8 @@ let EventController = class EventController {
         return { success: true, tickets: tickets };
     }
     async update_user_tickets(body, req) {
-        const ticket = await this.eventService.updateUserTicket(body.id);
+        const ticket = await this.eventService.updateUserTicket(body.id, body.tokenURL, body.ipfsURL);
+        console.log(body);
         return { success: true, ticket: ticket };
     }
     async available_events(req) {

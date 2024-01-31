@@ -75,6 +75,10 @@ __decorate([
     __metadata("design:type", String)
 ], EventCard.prototype, "picture_small", void 0);
 __decorate([
+    (0, typeorm_1.Column)({ nullable: true }),
+    __metadata("design:type", String)
+], EventCard.prototype, "picture_ipfs", void 0);
+__decorate([
     (0, typeorm_1.Column)(),
     __metadata("design:type", Number)
 ], EventCard.prototype, "price", void 0);

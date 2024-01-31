@@ -17,4 +17,5 @@ export declare class CreateEventCardDto {
     collection: string;
     green_pass_needed: string;
     total_tickets: number;
+    picture_ipfs: string;
 }
